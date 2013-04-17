@@ -33,6 +33,9 @@
 		ECAC5A08171EFF8000B5A74D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC5A07171EFF8000B5A74D /* AudioToolbox.framework */; };
 		ECAC5A0A171EFF9100B5A74D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC5A09171EFF9100B5A74D /* AVFoundation.framework */; };
 		ECAC5A0C171EFFAA00B5A74D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC5A0B171EFFAA00B5A74D /* QuartzCore.framework */; };
+		ECAC5A0F171F139000B5A74D /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECAC5A0D171F139000B5A74D /* board.jpg */; };
+		ECAC5A10171F139000B5A74D /* board@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECAC5A0E171F139000B5A74D /* board@2x.jpg */; };
+		ECAC5A12171F148100B5A74D /* board~568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECAC5A11171F148100B5A74D /* board~568h@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,9 @@
 		ECAC5A07171EFF8000B5A74D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		ECAC5A09171EFF9100B5A74D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ECAC5A0B171EFFAA00B5A74D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ECAC5A0D171F139000B5A74D /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = board.jpg; sourceTree = "<group>"; };
+		ECAC5A0E171F139000B5A74D /* board@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "board@2x.jpg"; sourceTree = "<group>"; };
+		ECAC5A11171F148100B5A74D /* board~568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "board~568h@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +237,9 @@
 		ECAC59EE171EFE9300B5A74D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				ECAC5A0D171F139000B5A74D /* board.jpg */,
+				ECAC5A0E171F139000B5A74D /* board@2x.jpg */,
+				ECAC5A11171F148100B5A74D /* board~568h@2x.jpg */,
 				ECAC59F7171EFEE600B5A74D /* slot.png */,
 				ECAC59F8171EFEE600B5A74D /* slot@2x.png */,
 				ECAC59F9171EFEE600B5A74D /* tile.png */,
@@ -309,6 +318,9 @@
 				ECAC59FE171EFEE600B5A74D /* tile@2x.png in Resources */,
 				ECAC5A05171EFEF100B5A74D /* btn.png in Resources */,
 				ECAC5A06171EFEF100B5A74D /* btn@2x.png in Resources */,
+				ECAC5A0F171F139000B5A74D /* board.jpg in Resources */,
+				ECAC5A10171F139000B5A74D /* board@2x.jpg in Resources */,
+				ECAC5A12171F148100B5A74D /* board~568h@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
