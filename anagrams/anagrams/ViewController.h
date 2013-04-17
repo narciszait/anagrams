@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Level.h"
 
 @interface ViewController : UIViewController {
    IBOutlet UIImageView* myImageView;

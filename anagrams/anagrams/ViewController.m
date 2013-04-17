@@ -20,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //load background image based on iphone screen
     UIImage* myImage;
     CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
     if ([UIScreen mainScreen].scale == 2.f && screenHeight == 568.0f) {
@@ -36,6 +38,11 @@
             NSLog(@"iphone image");
         }
     [myImageView setImage:myImage];
+    
+    //load level
+    Level* level1=[Level levelWithNum:1];
+    NSLog(@"anagrams %@",level1.anagrams);
+    
 }
 
 - (void)didReceiveMemoryWarning

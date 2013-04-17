@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC6D224F171F2408000DD410 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D224E171F2408000DD410 /* Level.m */; };
 		ECAC59BC171EFC8500B5A74D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BB171EFC8500B5A74D /* UIKit.framework */; };
 		ECAC59BE171EFC8500B5A74D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BD171EFC8500B5A74D /* Foundation.framework */; };
 		ECAC59C0171EFC8500B5A74D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BF171EFC8500B5A74D /* CoreGraphics.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC6D224D171F2408000DD410 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		EC6D224E171F2408000DD410 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
 		ECAC59B8171EFC8500B5A74D /* anagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anagrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAC59BB171EFC8500B5A74D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECAC59BD171EFC8500B5A74D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 		ECAC59E7171EFE2E00B5A74D /* model */ = {
 			isa = PBXGroup;
 			children = (
+				EC6D224D171F2408000DD410 /* Level.h */,
+				EC6D224E171F2408000DD410 /* Level.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				ECAC59C8171EFC8500B5A74D /* main.m in Sources */,
 				ECAC59CC171EFC8500B5A74D /* AppDelegate.m in Sources */,
 				ECAC59D8171EFC8500B5A74D /* ViewController.m in Sources */,
+				EC6D224F171F2408000DD410 /* Level.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				ECAC59DD171EFC8500B5A74D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
