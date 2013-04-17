@@ -37,6 +37,7 @@
 		ECAC59D4171EFC8500B5A74D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		ECAC59D6171EFC8500B5A74D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ECAC59D7171EFC8500B5A74D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECAC59DE171EFDB100B5A74D /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		ECAC59C1171EFC8500B5A74D /* anagrams */ = {
 			isa = PBXGroup;
 			children = (
+				ECAC59DE171EFDB100B5A74D /* config.h */,
 				ECAC59CA171EFC8500B5A74D /* AppDelegate.h */,
 				ECAC59CB171EFC8500B5A74D /* AppDelegate.m */,
 				ECAC59D3171EFC8500B5A74D /* MainStoryboard.storyboard */,
