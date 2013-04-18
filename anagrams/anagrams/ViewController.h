@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "Level.h"
+#import "GameController.h"
 
 @interface ViewController : UIViewController {
    IBOutlet UIImageView* myImageView;
 }
 
 @property (retain,nonatomic) IBOutlet UIImageView* myImageView;
+@property (strong, nonatomic) GameController* controller;
 
 @end

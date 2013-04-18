@@ -45,6 +45,14 @@
     
 }
 
+-(instancetype)initWithCoder:(NSCoder *)decoder{
+    self=[super initWithCoder:decoder];
+    if(self!=nil){
+        self.controller=[[GameController alloc] init];
+    }
+    return self;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
