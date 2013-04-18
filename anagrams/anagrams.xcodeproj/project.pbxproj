@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EC6D224F171F2408000DD410 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D224E171F2408000DD410 /* Level.m */; };
+		EC6D4B8E172035A800C50113 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D4B8D172035A800C50113 /* GameController.m */; };
+		EC6D4B951720391F00C50113 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B8F1720391F00C50113 /* btn.png */; };
+		EC6D4B961720391F00C50113 /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B901720391F00C50113 /* btn@2x.png */; };
+		EC6D4B971720391F00C50113 /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B911720391F00C50113 /* slot.png */; };
+		EC6D4B981720391F00C50113 /* slot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B921720391F00C50113 /* slot@2x.png */; };
+		EC6D4B991720391F00C50113 /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B931720391F00C50113 /* tile.png */; };
+		EC6D4B9A1720391F00C50113 /* tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B941720391F00C50113 /* tile@2x.png */; };
 		ECAC59BC171EFC8500B5A74D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BB171EFC8500B5A74D /* UIKit.framework */; };
 		ECAC59BE171EFC8500B5A74D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BD171EFC8500B5A74D /* Foundation.framework */; };
 		ECAC59C0171EFC8500B5A74D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BF171EFC8500B5A74D /* CoreGraphics.framework */; };
@@ -25,12 +32,6 @@
 		ECAC59F1171EFEB900B5A74D /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC59F0171EFEB900B5A74D /* particle.png */; };
 		ECAC59F3171EFEC600B5A74D /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECAC59F2171EFEC600B5A74D /* win.mp3 */; };
 		ECAC59F6171EFED200B5A74D /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECAC59F5171EFED200B5A74D /* ding.mp3 */; };
-		ECAC59FB171EFEE600B5A74D /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC59F7171EFEE600B5A74D /* slot.png */; };
-		ECAC59FC171EFEE600B5A74D /* slot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC59F8171EFEE600B5A74D /* slot@2x.png */; };
-		ECAC59FD171EFEE600B5A74D /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC59F9171EFEE600B5A74D /* tile.png */; };
-		ECAC59FE171EFEE600B5A74D /* tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC59FA171EFEE600B5A74D /* tile@2x.png */; };
-		ECAC5A05171EFEF100B5A74D /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC5A01171EFEF100B5A74D /* btn.png */; };
-		ECAC5A06171EFEF100B5A74D /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC5A02171EFEF100B5A74D /* btn@2x.png */; };
 		ECAC5A08171EFF8000B5A74D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC5A07171EFF8000B5A74D /* AudioToolbox.framework */; };
 		ECAC5A0A171EFF9100B5A74D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC5A09171EFF9100B5A74D /* AVFoundation.framework */; };
 		ECAC5A0C171EFFAA00B5A74D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC5A0B171EFFAA00B5A74D /* QuartzCore.framework */; };
@@ -42,6 +43,14 @@
 /* Begin PBXFileReference section */
 		EC6D224D171F2408000DD410 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
 		EC6D224E171F2408000DD410 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		EC6D4B8C172035A800C50113 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		EC6D4B8D172035A800C50113 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		EC6D4B8F1720391F00C50113 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		EC6D4B901720391F00C50113 /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn@2x.png"; sourceTree = "<group>"; };
+		EC6D4B911720391F00C50113 /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot.png; sourceTree = "<group>"; };
+		EC6D4B921720391F00C50113 /* slot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot@2x.png"; sourceTree = "<group>"; };
+		EC6D4B931720391F00C50113 /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		EC6D4B941720391F00C50113 /* tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tile@2x.png"; sourceTree = "<group>"; };
 		ECAC59B8171EFC8500B5A74D /* anagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anagrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAC59BB171EFC8500B5A74D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECAC59BD171EFC8500B5A74D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,12 +76,6 @@
 		ECAC59F2171EFEC600B5A74D /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		ECAC59F4171EFECB00B5A74D /* wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.m4a; sourceTree = "<group>"; };
 		ECAC59F5171EFED200B5A74D /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
-		ECAC59F7171EFEE600B5A74D /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot.png; sourceTree = "<group>"; };
-		ECAC59F8171EFEE600B5A74D /* slot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot@2x.png"; sourceTree = "<group>"; };
-		ECAC59F9171EFEE600B5A74D /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
-		ECAC59FA171EFEE600B5A74D /* tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tile@2x.png"; sourceTree = "<group>"; };
-		ECAC5A01171EFEF100B5A74D /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
-		ECAC5A02171EFEF100B5A74D /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn@2x.png"; sourceTree = "<group>"; };
 		ECAC5A07171EFF8000B5A74D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		ECAC5A09171EFF9100B5A74D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ECAC5A0B171EFFAA00B5A74D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -198,6 +201,8 @@
 		ECAC59E9171EFE3700B5A74D /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EC6D4B8C172035A800C50113 /* GameController.h */,
+				EC6D4B8D172035A800C50113 /* GameController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -245,12 +250,12 @@
 				ECAC5A0D171F139000B5A74D /* board.jpg */,
 				ECAC5A0E171F139000B5A74D /* board@2x.jpg */,
 				ECAC5A11171F148100B5A74D /* board~568h@2x.jpg */,
-				ECAC59F7171EFEE600B5A74D /* slot.png */,
-				ECAC59F8171EFEE600B5A74D /* slot@2x.png */,
-				ECAC59F9171EFEE600B5A74D /* tile.png */,
-				ECAC59FA171EFEE600B5A74D /* tile@2x.png */,
-				ECAC5A01171EFEF100B5A74D /* btn.png */,
-				ECAC5A02171EFEF100B5A74D /* btn@2x.png */,
+				EC6D4B8F1720391F00C50113 /* btn.png */,
+				EC6D4B901720391F00C50113 /* btn@2x.png */,
+				EC6D4B911720391F00C50113 /* slot.png */,
+				EC6D4B921720391F00C50113 /* slot@2x.png */,
+				EC6D4B931720391F00C50113 /* tile.png */,
+				EC6D4B941720391F00C50113 /* tile@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -317,15 +322,15 @@
 				ECAC59F1171EFEB900B5A74D /* particle.png in Resources */,
 				ECAC59F3171EFEC600B5A74D /* win.mp3 in Resources */,
 				ECAC59F6171EFED200B5A74D /* ding.mp3 in Resources */,
-				ECAC59FB171EFEE600B5A74D /* slot.png in Resources */,
-				ECAC59FC171EFEE600B5A74D /* slot@2x.png in Resources */,
-				ECAC59FD171EFEE600B5A74D /* tile.png in Resources */,
-				ECAC59FE171EFEE600B5A74D /* tile@2x.png in Resources */,
-				ECAC5A05171EFEF100B5A74D /* btn.png in Resources */,
-				ECAC5A06171EFEF100B5A74D /* btn@2x.png in Resources */,
 				ECAC5A0F171F139000B5A74D /* board.jpg in Resources */,
 				ECAC5A10171F139000B5A74D /* board@2x.jpg in Resources */,
 				ECAC5A12171F148100B5A74D /* board~568h@2x.jpg in Resources */,
+				EC6D4B951720391F00C50113 /* btn.png in Resources */,
+				EC6D4B961720391F00C50113 /* btn@2x.png in Resources */,
+				EC6D4B971720391F00C50113 /* slot.png in Resources */,
+				EC6D4B981720391F00C50113 /* slot@2x.png in Resources */,
+				EC6D4B991720391F00C50113 /* tile.png in Resources */,
+				EC6D4B9A1720391F00C50113 /* tile@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 				ECAC59CC171EFC8500B5A74D /* AppDelegate.m in Sources */,
 				ECAC59D8171EFC8500B5A74D /* ViewController.m in Sources */,
 				EC6D224F171F2408000DD410 /* Level.m in Sources */,
+				EC6D4B8E172035A800C50113 /* GameController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
