@@ -58,9 +58,13 @@
             TileView* tile=[[TileView alloc] initWithLetter:letter andSideLenght:tileSide];
             tile.center=CGPointMake(xOffset+i*(tileSide+kTileMargin), kScreenHeight/4*3);
             
+            NSLog(@"kScreenHeight: %f",kScreenHeight);
+            NSLog(@"tileCenter.y: %f",tile.center.y);
+            
             //4
-            [self.gameView addSubview:tile];
             [_tiles addObject:tile];
+            [self.gameView addSubview:tile];
+            
         }
     }
     
