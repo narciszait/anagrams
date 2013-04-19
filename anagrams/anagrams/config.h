@@ -22,4 +22,6 @@
 
 
 #define configed 1
+#define kTileMargin 20
+
 #endif

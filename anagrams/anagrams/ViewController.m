@@ -43,6 +43,9 @@
     Level* level1=[Level levelWithNum:1];
     NSLog(@"anagrams %@",level1.anagrams);
     
+    self.controller.level=level1;
+    [self.controller dealRandomAnagram];
+    
 }
 
 -(instancetype)initWithCoder:(NSCoder *)decoder{

@@ -15,6 +15,7 @@
 		EC6D4B981720391F00C50113 /* slot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B921720391F00C50113 /* slot@2x.png */; };
 		EC6D4B991720391F00C50113 /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B931720391F00C50113 /* tile.png */; };
 		EC6D4B9A1720391F00C50113 /* tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6D4B941720391F00C50113 /* tile@2x.png */; };
+		EC98139A1721A192006A3AAD /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9813991721A192006A3AAD /* TileView.m */; };
 		ECAC59BC171EFC8500B5A74D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BB171EFC8500B5A74D /* UIKit.framework */; };
 		ECAC59BE171EFC8500B5A74D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BD171EFC8500B5A74D /* Foundation.framework */; };
 		ECAC59C0171EFC8500B5A74D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAC59BF171EFC8500B5A74D /* CoreGraphics.framework */; };
@@ -51,6 +52,8 @@
 		EC6D4B921720391F00C50113 /* slot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot@2x.png"; sourceTree = "<group>"; };
 		EC6D4B931720391F00C50113 /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
 		EC6D4B941720391F00C50113 /* tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tile@2x.png"; sourceTree = "<group>"; };
+		EC9813981721A192006A3AAD /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		EC9813991721A192006A3AAD /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
 		ECAC59B8171EFC8500B5A74D /* anagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anagrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAC59BB171EFC8500B5A74D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECAC59BD171EFC8500B5A74D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,6 +197,8 @@
 		ECAC59E8171EFE3200B5A74D /* view */ = {
 			isa = PBXGroup;
 			children = (
+				EC9813981721A192006A3AAD /* TileView.h */,
+				EC9813991721A192006A3AAD /* TileView.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -346,6 +351,7 @@
 				ECAC59D8171EFC8500B5A74D /* ViewController.m in Sources */,
 				EC6D224F171F2408000DD410 /* Level.m in Sources */,
 				EC6D4B8E172035A800C50113 /* GameController.m in Sources */,
+				EC98139A1721A192006A3AAD /* TileView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

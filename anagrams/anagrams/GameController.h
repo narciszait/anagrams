@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Level.h"
+#import "config.h"
+#import "TileView.h"
 
 @interface GameController : NSObject {
     
